@@ -6,7 +6,7 @@ padding: 0;
 border: 0;
 font-size: 100%;
 font: inherit;
-font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial;
+font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial; /* Fungerar Roboto som första val */
 vertical-align: basline;
 }
  
@@ -17,6 +17,10 @@ background-color: black;
 a{
     text-decoration: none;
     color: white;
+}
+
+a:hover {
+    color: blue;    /* Länkarna blir blå när man för muspekaren över dem */
 }
 
 .maincontainer {
@@ -32,3 +36,8 @@ padding-top: 10px;
 .logo {
 
 }
+
+adress {
+	font-size: small;   /* Mindre textstorlek vid kontaktuppgifter e.l. */
+    }
+

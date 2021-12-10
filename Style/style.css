@@ -8,6 +8,7 @@ font-size: 100%;
 font: inherit;
 font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial; /* Fungerar Roboto som första val */
 vertical-align: basline;
+color: white;
 }
  
 header{
@@ -55,4 +56,8 @@ padding-top: 10px;
 adress {
 	font-size: small;   /* Mindre textstorlek vid kontaktuppgifter e.l. */
     }
+
+footer {
+    margin-top: 7em;
+}
 

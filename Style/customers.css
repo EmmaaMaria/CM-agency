@@ -55,8 +55,55 @@ body, html{
     }
     .maincontent{
         width: 100%;
-        height: 500px;
+        height: auto;
         text-align: center;
+    }
+    .service{
+        border: 1px solid #333;
+        height: 80px;
+        margin-top: 20px;
+        font-size: 3em;
+        text-align: center;
+        align-items: center;
+        color: black;
+        padding-top: 20px;
+        background-color: rgba(241, 237, 237, 0.8);
+
+    }
+    .content{
+        grid-template-columns: repeat(3, 1fr);
+
+    
+        display: grid;
+        margin-top: 10px;
+        height: auto;
+        background-color: white;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        gap: 2%;
+        padding: 50px;
+
+    }
+    .content1{
+        border: 1px solid #333;
+        height: 250px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        text-align: center;
+    }
+    .content2{
+        height: 250px;
+        color: black;
+        grid-column-start: 2;
+        grid-column-end: 4;
+
+    }
+    .content3{
+
+        height: 50px;
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding: 50px;
     }
     
     
@@ -74,6 +121,7 @@ body, html{
         grid-column-end: 7;
         gap: 2%;
         padding: 10px;
+        margin-top: 10px;
      }
      .section-7{
         margin:20px;
@@ -95,5 +143,15 @@ body, html{
         grid-column-start: 5;
         grid-column-end: 7;
         text-align: right;
+    }
+
+    button{
+        width: 100px;
+        height: 50px;
+        background-color: black;
+        color: white;
+        border: 2px solid #333;
+        border-radius: 30px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
     }
  

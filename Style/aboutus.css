@@ -66,24 +66,63 @@ body, html{
         background-color: white;
 
     }
+    .tjanst{
+        height: 50px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        color: black;
+        font-size: 1.5em;
+
+    }
+    .vision{
+        height: 150px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        color: black;
+
+    }
     .content{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
 
     
         display: grid;
-        height: auto;
+        height: 1600px;
         background-color: white;
         grid-column-start: 1;
-        grid-column-end: 4;
+        grid-column-end: 5;
         gap: 3%;
         padding: 50px;
-    
+
+    }
+    .content1{
+
+        height: 300px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        text-align: end;
+    }
+    .content2{
+        padding-top: 50px;
+        height: 250px;
+        color: black;
+        grid-column-start: 3;
+        grid-column-end: 5;
+        text-align: start;
+
+    }
+    .content3{
+
+        height: 50px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: 1.5em;
+        color: black;
+
 
     }
     .footer{
          
         grid-template-columns: repeat(6, 1fr);
-
         display: grid;
         height: auto;
         background-color: rgba(0, 0, 0, 0.7);

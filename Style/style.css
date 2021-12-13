@@ -12,12 +12,19 @@ color: white;
 }
  
 header{
+<<<<<<< HEAD
 background-color: black;
 
 }
 
 
 
+=======
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+>>>>>>> b9594be7f01df72f51fe0eba14a247835f3a9929
 a{
     text-decoration: none;
     color: white;
@@ -30,7 +37,7 @@ a:hover {
 .maincontainer {
 display: flex;
 column-gap: 40px;
-height: 100px;
+height: 150px;
 align-items: center;
 font-size: 1em;
 width: 100%;
@@ -38,9 +45,7 @@ padding-top: 10px;
 }
 
 .box1 {
-    padding-bottom: 20px;
-    padding-top: 30px;
-    padding-left: 20px;
+    padding: 30px;
     display: flex;
     align-items: flex-start;
     column-gap: 40px;

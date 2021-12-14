@@ -15,6 +15,10 @@ body, html{
         background-color: rgba(0, 0, 0, 0.2);
     }
 
+    header > div {
+		max-height: 170px;		/*På detta vis bestämmer man headerns höjd*/
+	}
+
     .kontakt {
         background-color: white;
 		text-align: center;

@@ -77,56 +77,32 @@ body, html{
             margin-left: 2em;
             
         }
-        
-        
+                
         .formulär {						/*Nytt, formulär*/
-                                    
-        
+            
             font-size: 16pt;
             text-align: left;
             margin-left: 2em;
             
         }
-        
-        
-        
-        
+                
         p.stort_radavstånd {		/*Nytt*/
             margin-top: 2em;
-            color: red;
-            
+            color: red;        
         }
-        
         
         label { 					/*Nytt, formulär*/
             display: block;
-            margin-top: 30px;
-            
+            margin-top: 30px;           
         }
         
         input { 					/*Nytt, formulär*/
             display: block;
             margin-bottom: 20px;
             height: 3em;
-            width: 20em;
-            
-            
+            width: 20em;        
         }
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
          .footer{
              
             grid-template-columns: repeat(6, 1fr);
@@ -140,6 +116,7 @@ body, html{
             gap: 2%;
             padding: 10px;
          }
+
          .section-7{
             margin:20px;
             height: 100px;
@@ -147,6 +124,7 @@ body, html{
             grid-column-end: 3;
             text-align: left;
         }
+
         .section-8{
             margin:20px;
             height: 100px;
@@ -154,6 +132,7 @@ body, html{
             grid-column-end: 5;
             text-align: center;
         }
+
         .section-9{
             margin:20px;
             height: 100px;

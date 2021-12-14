@@ -34,17 +34,28 @@
             
        </div>
     </header>
+
     <div class="maincontent"> 
     <div class="kontakt">
         K O N T A K T
-    </div>
-    <div class="content"> 
-
-    </div>    
-    </div>
-
+        <p class="kontaktinfo"> Kontakta oss gärna om ni har några frågor. Skicka ett meddelande nedan så hör vi av
+            oss inom 24 timmar. Det går också bra att ringa eller maila oss. <!--Större textstorlek, fet stil-->
+            </p>
+            
+           <div class="formulär">
+            <p class="stort_radavstånd"> Fält som är obligatoriska att fylla i markeras med en asterisk * </p>	<!--extra radavstånd, röd textfärg-->
+            <form method="post" action="mailto:cmagency@kontakt.com">		<!--Påhittad e-post-->
+            <label for="namn"> * För- och efternamn </label> <br>
+            <input type="text" name="namn" id="namn" required="required">	<!--Obligatoriska fält-->
+            <label for="telefon">  Telefon </label> <br>
+            <input type="telefon" name="telefon" id="telefon">
+            <label for="epost"> * E-post </label> <br>
+            <input type="email" name="email" id="email" placeholder="till@exempel.se" required="required"> <!--Placeholder anger inmatningsmönster-->
+            
+           </div>  <!--Här slutar div för formulär-->
+        </div> <!--Här slutar div för kontakt-->
+        </div> <!--Här slutar div för maincontent-->
     
-
     <div class="footer">
         <section class="section-7">
             <br>

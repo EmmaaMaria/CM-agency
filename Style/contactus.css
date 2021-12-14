@@ -17,12 +17,11 @@ body, html{
 
     .kontakt {
         background-color: white;
-        height: 100px;
-        text-align: center;
+		text-align: center;
+		padding-top: 50px;
+        height: 300px;
         font-size: 3em;
-        align-items: center;
         color: black;
-        padding-top: 50px;
     }
     
     a{
@@ -39,13 +38,13 @@ body, html{
         column-gap: 40px;
         height: 150px;
         align-items: center;
-        font-size: 1em;
+        font-size: 1.5em;   /* Visar större textstorlek hos mig, från början 1em */
         width: 100%;
         padding-top: 10px;
         }
         
         .box1 {
-            padding: 30px;
+            padding: 30px;  /*från början 30, men ändrade så att länkarna centrerades på min dator*/
             display: flex;
             align-items: flex-start;
             column-gap: 40px;
@@ -61,12 +60,48 @@ body, html{
             column-gap: 40px;
         
         }
-        .maincontent{
+        .maincontent{   /* Har ändrats jämfört med tidigare */
+            background-color: white;
+			justify-content: center;
             width: 100%;
-            height: 500px;
-            text-align: center;
+            height: 800px;
+            color: black;
         }
         
+        p.kontaktinfo {					/*Nytt jämfört med tidigare*/
+            width: 800px;
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: left;
+            margin-top: 2em;
+            margin-left: 2em;
+            
+        }
+                
+        .formulär {						/*Nytt, formulär*/
+            
+            font-size: 16pt;
+            text-align: left;
+            margin-left: 2em;
+            
+        }
+                
+        p.stort_radavstånd {		/*Nytt*/
+            margin-top: 2em;
+            color: red;        
+        }
+        
+        label { 					/*Nytt, formulär*/
+            display: block;
+            margin-top: 30px;           
+        }
+        
+        input { 					/*Nytt, formulär*/
+            display: block;
+            margin-bottom: 20px;
+            height: 3em;
+            width: 20em;        
+        }
         
          .footer{
              
@@ -81,6 +116,7 @@ body, html{
             gap: 2%;
             padding: 10px;
          }
+
          .section-7{
             margin:20px;
             height: 100px;
@@ -88,6 +124,7 @@ body, html{
             grid-column-end: 3;
             text-align: left;
         }
+
         .section-8{
             margin:20px;
             height: 100px;
@@ -95,6 +132,7 @@ body, html{
             grid-column-end: 5;
             text-align: center;
         }
+
         .section-9{
             margin:20px;
             height: 100px;

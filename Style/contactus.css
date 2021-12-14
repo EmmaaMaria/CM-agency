@@ -36,12 +36,14 @@ body, html{
     .maincontainer {
         display: flex;
         column-gap: 40px;
-        min-height: 150px;
+        height: 150px;
         align-items: center;
         font-size: 1.5em;   /* Visar större textstorlek hos mig, från början 1em */
         width: 100%;
         padding-top: 10px;
         }
+
+    
         
         .box1 {
             padding: 30px;  /*från början 30, men ändrade så att länkarna centrerades på min dator*/

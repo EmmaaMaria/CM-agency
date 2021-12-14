@@ -17,12 +17,11 @@ body, html{
 
     .kontakt {
         background-color: white;
-        height: 100px;
-        text-align: center;
+		text-align: center;
+		padding-top: 50px;
+        height: 300px;
         font-size: 3em;
-        align-items: center;
         color: black;
-        padding-top: 50px;
     }
     
     a{
@@ -68,6 +67,20 @@ body, html{
         }
         
         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          .footer{
              
             grid-template-columns: repeat(6, 1fr);

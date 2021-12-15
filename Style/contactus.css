@@ -15,11 +15,15 @@ body, html{
         background-color: rgba(0, 0, 0, 0.2);
     }
 
+    header > div {
+		max-height: 170px;		/*På detta vis bestämmer man headerns höjd*/
+	}
+
     .kontakt {
         background-color: white;
 		text-align: center;
 		padding-top: 50px;
-        height: 300px;
+        min-height: 300px;
         font-size: 3em;
         color: black;
     }
@@ -42,6 +46,8 @@ body, html{
         width: 100%;
         padding-top: 10px;
         }
+
+    
         
         .box1 {
             padding: 30px;  /*från början 30, men ändrade så att länkarna centrerades på min dator*/
@@ -64,7 +70,7 @@ body, html{
             background-color: white;
 			justify-content: center;
             width: 100%;
-            height: 800px;
+            height: 100%;
             color: black;
         }
         

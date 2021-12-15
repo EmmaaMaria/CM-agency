@@ -6,7 +6,7 @@ body, html{
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial; /* Fungerar Roboto som första val */
+    font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial; 
     vertical-align: basline;
     color: white;
     }
@@ -21,7 +21,7 @@ body, html{
     }
     
     a:hover {
-        color: blue;    /* Länkarna blir blå när man för muspekaren över dem */
+        color: blue;  
     }
     
     .maincontainer {
@@ -35,21 +35,27 @@ body, html{
         }
         
      .box1 {
-        padding: 30px;
         display: flex;
         align-items: flex-start;
         column-gap: 40px;
         min-width: 1000px;
+        padding: 30px;
             
     }
     
     .box2 {
         display: flex;
         min-width: 50px;
-        column-width: 100px;
         align-items: end;
         column-gap: 40px;
-    
+        padding-top: 30px;
+    }
+    .lastchild {
+        display: flex;
+        min-width: 50px;
+        align-items: end;
+        column-gap: 40px;
+        padding-top: 30px;
     }
     .maincontent{
         width: 100%;
@@ -74,11 +80,20 @@ body, html{
         font-size: 1.5em;
 
     }
+    .rubrik {
+        height: 50px;
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: 1.5em;
+        color: black;
+        margin: auto;
+    }
     .vision{
         height: 150px;
         grid-column-start: 1;
         grid-column-end: 5;
         color: black;
+
 
     }
     .content{
@@ -115,8 +130,7 @@ body, html{
         height: 50px;
         grid-column-start: 1;
         grid-column-end: 5;
-        font-size: 1.5em;
-        color: black;
+
 
 
     }
@@ -165,3 +179,169 @@ body, html{
     .button:hover{
         color: blue;
     }
+    .img-logo{
+        width: 600;
+        height: auto;
+    }
+    .img-media{
+        width: 50px; 
+        height:auto;
+    }
+
+    .img-copy{
+        width: 50px; 
+        height:auto; 
+    }
+
+
+
+
+
+    @media screen and (max-width: 960px){
+       
+        .img-logo {
+            width: 400px;
+            height: auto;
+        }
+        .img-media{
+            width: 30px; 
+            height:auto; 
+         }
+         .img-copy{
+            width: 30px; 
+            height:auto;
+         
+        }
+
+        .maincontainer{
+            height: auto;
+            max-width: 768px;
+            flex-direction: row;
+            column-gap: 15px;
+            height: 150px;
+        
+        }
+        .box1{
+        min-width: 400px;
+        }
+
+        .box2{
+        min-width: 60px;
+        flex-direction: column;
+        padding-top: 30px;
+        }
+        .lastchild{
+            min-width: 100px;
+            flex-direction: column;
+            padding-top: 30px;
+        }
+        .boxspace{
+            width: 5px;
+            flex-direction: column;
+        }
+
+        .vision{
+            min-height: 300px;
+            padding-bottom: 50px;
+        }
+        .tjanst{
+            min-height: 30px;
+            font-size: 1em;
+        }
+
+        .content{
+            grid-column-start: 1;
+            grid-column-end: 3;
+
+        }
+        .content1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+
+        }
+        .content2{
+            grid-column-start: 3;
+            grid-column-end: 4;
+
+        }
+
+        .content3{
+            display: none;
+        } 
+
+
+     }
+     @media screen and (max-width: 768px)
+     {
+         .img-logo {
+             width: 400px;
+             height: auto;
+         }
+         .img-media{
+            width: 30px; 
+            height:auto; 
+         }
+         .img-copy{
+            width: 30px; 
+            height:auto;
+         }
+         .maincontainer{
+             height: auto;
+             max-width: 768px;
+             flex-direction: row;
+             flex-wrap: wrap;
+         }
+         .box1{
+            min-width: 668px;
+            justify-content: center;
+         }
+ 
+         .box2{
+            max-width: 400px;
+            flex-direction: column;
+            padding: 10px;
+         }
+         .lastchild{
+            min-width: 100px;
+            flex-direction: column;
+            padding-top: 30px;
+            padding: 10px;
+        }
+         
+         .boxspace{
+            width: 130px;
+            flex-direction: column;
+         }
+ 
+         .vision{
+             min-height: 300px;
+             padding-bottom: 50px;
+         }
+         .tjanst{
+             min-height: 30px;
+             font-size: 1em;
+         }
+ 
+         .content{
+             grid-column-start: 1;
+             grid-column-end: 3;
+ 
+         }
+         .content1{
+             grid-column-start: 1;
+             grid-column-end: 2;
+ 
+         }
+         .content2{
+             grid-column-start: 3;
+             grid-column-end: 4;
+ 
+         }
+ 
+         .content3{
+             display: none;
+         }  
+
+     }
+
+

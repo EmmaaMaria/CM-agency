@@ -55,6 +55,54 @@ button{
      
 }
 
+
+
+
+
+
+
+   .wrapper{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    
+    } 
+     
+    .image-container img {
+
+        padding-top: 40px;
+        margin-left: 0;
+        }
+       
+
+       
+     .text-container{
+          max-width: 75%;
+          width: 100%;
+          justify-content: center;
+          padding-left: 20px;
+       }
+          
+          
+       p {
+            font-size: 18px;
+            font-family: Roboto;
+            display: flex;
+            line-height: 30px;
+            color: white
+       } 
+         
+       h1{
+
+        color: white;
+        font-size: 24px;
+        font-family: Roboto;
+
+       }
+
+         
+          
+
 .box1 {
     padding: 30px;
     display: flex;

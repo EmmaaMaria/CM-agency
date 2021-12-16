@@ -35,6 +35,64 @@
        </div>
     </header>
 
+    <div class="maincontent"> 
+		
+        <div class="kontakt">
+            K O N T A K T
+            <p class="kontaktinfo"> Kontakta oss gärna om ni har några frågor. Skicka ett meddelande nedan så hör vi av
+                oss inom 24 timmar. Det går också bra att ringa eller maila oss. <!--Större textstorlek, fet stil-->
+                </p>
+                
+               <div class="formulär">
+                <p class="stort_radavstånd"> Fält som är obligatoriska att fylla i markeras med en asterisk * </p>	<!--extra radavstånd, röd textfärg-->
+                <form method="post" action="mailto:cmagency@kontakt.com">		<!--Påhittad e-post-->
+                <label for="namn"> * För- och efternamn </label> <br>
+                <input type="text" name="namn" id="namn" required="required">	<!--Obligatoriska fält-->
+                <label for="telefon">  Telefon </label> <br>
+                <input type="telefon" name="telefon" id="telefon">
+                <label for="epost"> * E-post </label> <br>
+                <input type="email" name="email" id="email" placeholder="anders.svensson@gmail.com" required="required"> <br>
+                 <!--Placeholder anger inmatningsmönster-->
+                * Meddelande <br>
+                <textarea name="meddelande" id="meddelande" rows="12" cols="80"> </textarea> <br>
+                <input type="submit" value="Skicka"> <input type="reset"> 
+                
+                <br>
+                <br>
+                <br>
+                            
+                </form>
+               </div>  <!--Här slutar div för formulär-->
+               
+            </div> <!--Här slutar div för kontakt-->
+                                    
+                <div class="griditem1"> <!--barn till .maincontent som är grid-förälder-->
+                     <p />
+                        <b>Postadress</b>
+                        <br>
+                        <br>
+                        
+                        <address>CM Agency<br>
+                                Sveagatan 32 A <br>
+                                432 53 Stockholm </address> 
+                                <br>
+                                <img src="images/eposten.png" width="25px" height="16px"> &nbsp; E-post: cmagency@kontakt.com  <br>
+                                <img src="images/lur.png" width="25px" height="20px"> &nbsp; Telefon: 08 - 88 01 34 <br>
+                                
+                                <div class="öppettider">
+                                    Vi har telefontid Måndag - Fredag kl. 8-12, 13-16 <br>
+                                    Lördag och Söndag har vi stängt
+                                </div>
+                                <!--Om man klickar på bilden nedan länkas man till Google Maps-->
+                                <a href="https://www.google.se/maps/@59.2018858,17.6370472,17z"> &nbsp; &nbsp; &nbsp; &nbsp;<img src="images/googlemap.jpg" width="580px" height="300px"> </a>
+                </div>	<!--Här slutar div för griditem1-->
+                                                
+        </div> <!--Här slutar div för maincontent-->
+        
+        
+
+
+
 
 
 

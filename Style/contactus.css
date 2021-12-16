@@ -6,7 +6,7 @@ body, html{
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial; /* Fungerar Roboto som första val */
+    font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial; 
     vertical-align: basline;
     color: white;
     }
@@ -19,15 +19,7 @@ body, html{
 		max-height: 170px;		/*På detta vis bestämmer man headerns höjd*/
 	}
 
-    .kontakt {
-        background-color: white;
-		text-align: center;
-		padding-top: 50px;
-        min-height: 300px;
-        font-size: 3em;
-        color: black;
-    }
-    
+      
     a{
         text-decoration: none;
         color: white;
@@ -47,8 +39,7 @@ body, html{
         padding-top: 10px;
         }
 
-    
-        
+            
         .box1 {
             padding: 30px;  
             display: flex;
@@ -64,17 +55,25 @@ body, html{
             column-width: 100px;
             align-items: end;
             column-gap: 40px;
-        
         }
-        .maincontent{   /* Har ändrats jämfört med tidigare */
-            background-color: white;
-			justify-content: center;
-            width: 100%;
-            height: 100%;
-            color: black;
+
+        .maincontent{ 
+            display: grid;						
+			grid-template-columns: 50% 50%;	
+			grid-column-gap: 10px;	  
         }
-        
-        p.kontaktinfo {					/*Nytt jämfört med tidigare*/
+
+        .kontakt {
+			background-color: white;
+			margin-right: 20px;				
+			text-align: center;
+			padding-top: 50px;
+			min-height: 300px;
+			font-size: 3em;
+			color: black;
+    }
+	
+	 p.kontaktinfo {					
             width: 800px;
             font-size: 18pt;
             font-weight: bold;
@@ -83,32 +82,77 @@ body, html{
             margin-left: 2em;
             
         }
-                
-        .formulär {						/*Nytt, formulär*/
+		
+		.formulär {						
             
             font-size: 16pt;
             text-align: left;
             margin-left: 2em;
-            
+			            
         }
                 
-        p.stort_radavstånd {		/*Nytt*/
+        p.stort_radavstånd {		
             margin-top: 2em;
             color: red;        
         }
-        
-        label { 					/*Nytt, formulär*/
-            display: block;
-            margin-top: 30px;           
-        }
-        
-        input { 					/*Nytt, formulär*/
+		
+		input[type="submit"] {
+			display: inline;
+			margin-right: 15px;
+			width: 165px;
+			border-radius: 25px;
+			background-color: black;
+			color: white;
+		}
+		
+			input[type="reset"] {
+			display: inline;
+			width: 165px;
+		    border-radius: 25px;
+			background-color: black;
+			color: white;
+		}
+		
+			
+        input { 				
             display: block;
             margin-bottom: 20px;
             height: 3em;
             width: 20em;        
         }
-        
+		
+		textarea {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}  
+		
+		 label { 					
+            display: block;
+            margin-top: 30px;           
+        }
+						
+		.griditem1 {						
+			width: 900px;
+			height: 1100px;
+			background-color: white;
+			color: black;
+			margin-left: 20px;
+			font-size: 1.5em;
+			text-align: center;
+		}
+		                   						
+		.öppettider {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-top: 50px;
+			border: 1px solid blue;
+			position: relative;
+			left: 180px;
+			width: 580px;
+			height: 100px;
+						
+		}
+		
          .footer{
              
             grid-template-columns: repeat(6, 1fr);

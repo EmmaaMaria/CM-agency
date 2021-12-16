@@ -194,45 +194,48 @@ button:hover{
 
 
 
- .footer{
-     
+.footer{
+         
     grid-template-columns: repeat(6, 1fr);
-	gap: 2%;
-	row-gap: 20px;
 
-	display: grid;
+    display: grid;
     height: auto;
-    background-color: black;
-    opacity: 70%;
-	grid-column-start: 1;
-	grid-column-end: 7;
-	gap: 2%;
-	padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    grid-column-start: 1;
+    grid-column-end: 7;
  }
  .section-7{
     margin:20px;
     height: 100px;
-	grid-column-start: 1;
+    grid-column-start: 1;
     grid-column-end: 3;
     text-align: left;
 }
 .section-8{
     margin:20px;
     height: 100px;
-	grid-column-start: 3;
+    grid-column-start: 3;
     grid-column-end: 5;
     text-align: center;
 }
 .section-9{
     margin:20px;
     height: 100px;
-	grid-column-start: 5;
+    grid-column-start: 5;
     grid-column-end: 7;
     text-align: right;
 }
 
 
+.img-media{
+    width: 50px; 
+    height:auto;
+}
 
+.img-copy{
+    width: 50px; 
+    height:auto; 
+}
 
 /* .footer {
     opacity: 70%;

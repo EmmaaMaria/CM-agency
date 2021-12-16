@@ -19,8 +19,7 @@ body, html{
 		max-height: 170px;		/*På detta vis bestämmer man headerns höjd*/
 	}
 
-    
-    
+      
     a{
         text-decoration: none;
         color: white;
@@ -40,8 +39,7 @@ body, html{
         padding-top: 10px;
         }
 
-    
-        
+            
         .box1 {
             padding: 30px;  
             display: flex;
@@ -107,8 +105,7 @@ body, html{
 			color: white;
 		}
 		
-		
-		input[type="reset"] {
+			input[type="reset"] {
 			display: inline;
 			width: 165px;
 		    border-radius: 25px;
@@ -133,8 +130,7 @@ body, html{
             display: block;
             margin-top: 30px;           
         }
-		
-				
+						
 		.griditem1 {						
 			width: 900px;
 			height: 1100px;
@@ -144,8 +140,7 @@ body, html{
 			font-size: 1.5em;
 			text-align: center;
 		}
-			
-                   						
+		                   						
 		.öppettider {
 			margin-top: 20px;
 			margin-bottom: 20px;
@@ -157,12 +152,7 @@ body, html{
 			height: 100px;
 						
 		}
-			
-        
-        
-
-
-
+		
          .footer{
              
             grid-template-columns: repeat(6, 1fr);

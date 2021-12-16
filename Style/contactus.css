@@ -57,11 +57,107 @@ body, html{
             column-width: 100px;
             align-items: end;
             column-gap: 40px;
-        
         }
-        .maincontent{   
+
+        .maincontent{ 
+            display: grid;						
+			grid-template-columns: 50% 50%;	
+			grid-column-gap: 10px;	  
+        }
+
+        .kontakt {
+			background-color: white;
+			margin-right: 20px;				
+			text-align: center;
+			padding-top: 50px;
+			min-height: 300px;
+			font-size: 3em;
+			color: black;
+    }
+	
+	 p.kontaktinfo {					
+            width: 800px;
+            font-size: 18pt;
+            font-weight: bold;
+            text-align: left;
+            margin-top: 2em;
+            margin-left: 2em;
             
         }
+		
+		.formulär {						
+            
+            font-size: 16pt;
+            text-align: left;
+            margin-left: 2em;
+			            
+        }
+                
+        p.stort_radavstånd {		
+            margin-top: 2em;
+            color: red;        
+        }
+		
+		input[type="submit"] {
+			display: inline;
+			margin-right: 15px;
+			width: 165px;
+			border-radius: 25px;
+			background-color: black;
+			color: white;
+		}
+		
+		
+		input[type="reset"] {
+			display: inline;
+			width: 165px;
+		    border-radius: 25px;
+			background-color: black;
+			color: white;
+		}
+		
+			
+        input { 				
+            display: block;
+            margin-bottom: 20px;
+            height: 3em;
+            width: 20em;        
+        }
+		
+		textarea {
+			margin-top: 30px;
+			margin-bottom: 20px;
+		}  
+		
+		 label { 					
+            display: block;
+            margin-top: 30px;           
+        }
+		
+				
+		.griditem1 {						
+			width: 900px;
+			height: 1100px;
+			background-color: white;
+			color: black;
+			margin-left: 20px;
+			font-size: 1.5em;
+			text-align: center;
+		}
+			
+                   						
+		.öppettider {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-top: 50px;
+			border: 1px solid blue;
+			position: relative;
+			left: 180px;
+			width: 580px;
+			height: 100px;
+						
+		}
+			
         
         
 

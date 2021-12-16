@@ -6,7 +6,7 @@ body, html{
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial, sans-serif; 
+    font-family: Roboto, "Times New Roman", Baskerville, Georgia, Arial, sans-serif; /*Infogar generisk familj sist*/
     vertical-align: basline;
     color: white;
     }

@@ -65,7 +65,8 @@ body, html{
 
         .kontakt {
 			background-color: white;
-			margin-right: 20px;				
+			margin-right: 20px;	
+            margin-left: 25px;			
 			text-align: center;
 			padding-top: 50px;
 			min-height: 300px;

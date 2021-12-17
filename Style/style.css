@@ -406,7 +406,10 @@ button:hover{
         width:auto;
           
       }
-     
+     .content-container{
+         flex: 0 0 100%;
+         width: 100%;
+     }
     }
 /* .footer {
     opacity: 70%;

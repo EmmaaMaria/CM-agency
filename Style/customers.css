@@ -61,6 +61,7 @@ body, html{
     .maincontent{
         width: 100%;
         height: auto;
+        text-align: center;
     
     }
     .service{
@@ -82,7 +83,7 @@ body, html{
         background-color: white;
         grid-column-start: 1;
         grid-column-end: 4;
-        gap: 3%;
+        gap: 2%;
         padding: 50px;
     
 
@@ -114,10 +115,8 @@ body, html{
     }
     
     
-     .footer{
-         
+     .footer{  
         grid-template-columns: repeat(6, 1fr);
-
         display: grid;
         height: auto;
         background-color: rgba(0, 0, 0, 0.7);
@@ -186,7 +185,7 @@ body, html{
         height: 250px; 
     }
 
-    @media screen and (max-width: 1100px){
+    @media screen and (max-width: 1200px){
     .maincontainer{
             height: auto;
             max-width: 1100px;
@@ -223,6 +222,12 @@ body, html{
         grid-column-start: 1;
         grid-column-end: 2;
         text-align: center;
+    }
+    .content3{
+
+        height: 50px;
+        grid-column-start: 1;
+        grid-column-end: 4;
     }
 
     @media screen and (max-width: 960px){
@@ -313,6 +318,10 @@ body, html{
             border-radius: 25px;
             color: white;
            
+        }
+        .boxspace2
+        {
+           height: 100px;
         }
 
 
